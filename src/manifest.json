@@ -1,0 +1,33 @@
+{
+
+     "name": "屏蔽",
+
+     "version": "0.5",
+
+     "description": "屏蔽指定帖子",
+
+     "icons": {
+
+          "128": "google.png",
+
+          "16": "google.png"
+
+     },
+
+     "permissions": [
+
+          "contextMenus",
+
+          "tabs"
+
+     ],
+
+     "background": {
+
+         "scripts": ["contentscript.js"]
+
+     },
+
+     "manifest_version": 2
+
+}
